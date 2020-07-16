@@ -1,0 +1,17 @@
+#### MPG Regression
+
+Vehicle length and ground clearance showed significant correlation to the vehicle's miles per gallon.  Both variables indicate near 0 significance codes whereas vehicle weight and spoiler angle had a more random influence on the miles per gallon measure.  The slope of of the linear model would not be zero as there is a strong correlation between the vehicle length and ground clearance variables.  There would be a 0 slope for the spoiler angle as it relates to the miles per gallon measure measure.  The spoiler angle is not a good predictor of miles per gallon and provides more random results than length and ground clearance.
+
+#### Suspension Coil
+
+The varaiance for the population as a whole is about 62.3 which is less than 100 PSI.  All of the suspension coils combined have less than a 100 PSI variation and are within design specifications.
+
+#### Suspension Coil T-Test
+
+When the full data set is evaluated, it fits within the manufaturing specifications with a p-value of 0.06.  Lot 1 has a p-value of 1, making it a direct correlation to the specifications. Lot 2 is still well within the design specifications with a .6 p-value.  Lot 3, on its own, is not within specifications with a p-value of 0.04. (all assuming the significance level was 0.05)
+
+
+#### My Own Study
+
+Many people in the US live in areas where weather conditions create a need for additional qualities in a vehicle including all wheel drive.  Additionally, consumers would prefer to have moderate to good gas mileage on their all wheel drive vehicle.  My null hypothesis is that all wheel drive vehicles get <30 mpg.  My alternative hypthersis would be "all wheel druve vehicles do have >30 Mpg".  We could test this with the mean, median, standard deviation and variance of mpg for all wheel drive vehicles and non-all wheel drive vehicles.  We would then use t-tests to see the statistucal significance of the mean to ensure it's a reliable method of answering our hypothesis.
+We would need to know the all wheel drive status and the MPG of a statistically appropriate number of vehicles in each group (AWD and non-AWD vehicles).
